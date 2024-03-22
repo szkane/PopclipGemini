@@ -41,6 +41,7 @@ async function generateContent(input, options) {
   };
 
   try {
+    print('log start ---');
     const response = await axios.post(
       `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${options.apikey}`,
       requestBody,
