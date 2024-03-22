@@ -1,6 +1,6 @@
 // #popclip extension for Google Gemini
-// name: Gemini Spelling&Grammar
-// icon: "square filled GS"
+// name: Gemini Make Shorter
+// icon: "square filled MS"
 // language: javascript
 // module: true
 // entitlements: [network]
@@ -8,8 +8,8 @@
 //   identifier: apikey, label: API Key, type: string,
 //   description: 'Obtain API key from Google Cloud Console'
 // }, {
-//   identifier: prompt, label: 'Spelling and Grammar Prompt', type: string,
-//   defaultValue: "I will give you text content, you will correct the spelling, syntax and grammar of this text. Correct any spelling, syntax, or grammar mistakes in the text I give you without making any improvements or changes to the original meaning or style. In other words, only correct spelling, syntax, or grammar mistakes, do not make improvements. If the original text has no mistake,just output the original text and nothing else. Keep the meaning the same. Make sure the re-written content's number of words is the same as the original text's number of characters. Do not alter the original structure and formatting outlined in any way. Only give me the output and nothing else.Now, using the concepts above, re-write the following text. Respond in the same language variety or dialect of the following text:{input}",
+//   identifier: prompt, label: 'Make Shorter Prompt', type: string,
+//   defaultValue: "I'll give you text. You'll rewrite it and output it shorter to be no more than half the number of characters of the original text.Keep the meaning the same. Only give me the output and nothing else.Now, using the concepts above, re-write the following text. Respond in the same language variety or dialect of the following text:{input}",
 //   description: 'Enter the prompt template using {input} as a placeholder for the text'
 // }]
 
@@ -56,7 +56,7 @@ async function generateContent(input, options) {
 }
 
 exports.actions = [{
-  title: "Gemini Spelling&Grammar",
+  title: "Gemini Make Shorter",
   after: "paste-result",
   code: async (input, options) => generateContent(input, options),
 }];
