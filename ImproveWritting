@@ -1,6 +1,6 @@
 // #popclip extension for Google Gemini
 // name: Gemini Improve Writing
-// icon: "square filled GS"
+// icon: "square filled IW"
 // language: javascript
 // module: true
 // entitlements: [network]
