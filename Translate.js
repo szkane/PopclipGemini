@@ -10,7 +10,7 @@
 // }, {
 //   identifier: prompt, label: 'Translate Prompt', type: string,
 //   defaultValue: "I will give you text content, you will rewrite it and translate the text into {lang} language. Keep the meaning the same. Do not alter the original structure and formatting outlined in any way. Only give me the output and nothing else.Now, using the concepts above, translate the following text:{input}",
-//   description: 'Enter the prompt template using {input} as a placeholder for the text'
+//   description: 'Enter the prompt template using {input} {lang} as a placeholder for the text'
 // },{
 //    identifier: tolang, label: 'Language', type: multiple,
 //    values:['English','Chinese','Russian','French','Português','Spanish'],
