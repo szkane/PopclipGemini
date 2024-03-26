@@ -1,6 +1,6 @@
 // #popclip extension for Google Gemini
 // name: Gemini Make Longer
-// icon: "square filled ML"
+// icon: "iconify:mdi:file-plus"
 // language: javascript
 // module: true
 // entitlements: [network]

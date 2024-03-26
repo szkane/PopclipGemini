@@ -1,6 +1,6 @@
 // #popclip extension for Google Gemini
 // name: Gemini Make Shorter
-// icon: "square filled MS"
+// icon: "iconify:mdi:file-minus"
 // language: javascript
 // module: true
 // entitlements: [network]

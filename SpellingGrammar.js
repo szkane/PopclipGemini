@@ -1,6 +1,6 @@
 // #popclip extension for Google Gemini
 // name: Gemini Spelling&Grammar
-// icon: "square filled GS"
+// icon: "iconify:ic:round-fact-check"
 // language: javascript
 // module: true
 // entitlements: [network]
