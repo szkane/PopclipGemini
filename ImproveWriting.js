@@ -1,5 +1,5 @@
 // #popclip extension for Google Gemini
-// name: Gemini Improve Writting
+// name: Gemini Improve Writing
 // icon: "iconify:tabler:file-text-ai"
 // language: javascript
 // module: true

@@ -1,6 +1,6 @@
-# Popclip Gemini AI Writting Extension
+# Popclip Gemini AI Writing Extension
 
-Popclip Extension: AI writting extension by Google Gemini.
+Popclip Extension: AI writing extension by Google Gemini.
 
 Inspired by Notion AI, Prompt Reference from [developnsolve](https://developnsolve.com/notion-ai-prompts-for-better-writing#heading-improve-writing)
 
@@ -16,9 +16,9 @@ Open the extension file you need, select all content to install the plugin.
 
 | File                                     | Description                                           |
 | ---------------------------------------- | ----------------------------------------------------- |
-| [ImproveWritting.js](ImproveWritting.js) | Gemini AI help you to improve your writting           |
-| [MakeLonger.js](MakeLonger.js)           | Gemini AI help you make your writting longer          |
-| [MakeShorter.js](MakeShorter.js)         | Gemini AI help you make your writting shorter         |
+| [ImproveWriting.js](ImproveWritting.js)  | Gemini AI help you to improve your writing            |
+| [MakeLonger.js](MakeLonger.js)           | Gemini AI help you make your writing longer           |
+| [MakeShorter.js](MakeShorter.js)         | Gemini AI help you make your writing shorter          |
 | [SpellingGrammar.js](SpellingGrammar.js) | Gemini AI help you to check your spelling and grammar |
 | [Translate.js](Translate.js)             | Gemini AI translate                                   |
 
