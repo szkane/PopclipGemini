@@ -1,4 +1,4 @@
-![Popclip Gemini AI Writing Extension](res/shot_demo.gif 'Banner')
+![Popclip Gemini AI Writing Extension](res/banner.png 'Banner')
 
 # Popclip Gemini AI Writing Extension
 
