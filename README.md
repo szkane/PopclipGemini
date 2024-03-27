@@ -18,7 +18,7 @@ Open the extension file you need, select all content to install the plugin.
 
 | File                                     | Description                                           |
 | ---------------------------------------- | ----------------------------------------------------- |
-| [ImproveWriting.js](ImproveWritting.js)  | Gemini AI help you to improve your writing            |
+| [ImproveWriting.js](ImproveWriting.js)   | Gemini AI help you to improve your writing            |
 | [MakeLonger.js](MakeLonger.js)           | Gemini AI help you make your writing longer           |
 | [MakeShorter.js](MakeShorter.js)         | Gemini AI help you make your writing shorter          |
 | [SpellingGrammar.js](SpellingGrammar.js) | Gemini AI help you to check your spelling and grammar |
