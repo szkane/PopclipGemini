@@ -1,3 +1,5 @@
+![Popclip Gemini AI Writing Extension](res/shot_demo.gif 'Banner')
+
 # Popclip Gemini AI Writing Extension
 
 Popclip Extension: AI writing extension by Google Gemini.
