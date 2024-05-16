@@ -7,7 +7,11 @@
 // options: [{
 //   identifier: apikey, label: API Key, type: string,
 //   description: 'Obtain API key from Google Cloud Console'
-// }, {
+// },
+// {
+//    identifier: model, label: 'model', type: multiple,
+//    values:['gemini-1.5-flash-latest','gemini-1.5-pro-latest','gemini-1.0-pro']
+//  }, {
 //   identifier: prompt, label: 'Make Shorter Prompt', type: string,
 //   defaultValue: "I'll give you text. You'll rewrite it and output it shorter to be no more than half the number of characters of the original text.Keep the meaning the same. Only give me the output and nothing else.Now, using the concepts above, re-write the following text. Respond in the same language variety or dialect of the following text:{input}",
 //   description: 'Enter the prompt template using {input} as a placeholder for the text'
@@ -34,15 +38,15 @@ async function generateContent(input, options) {
         "Title"
       ],
       "temperature": 1.0,
-      "maxOutputTokens": 800,
-      "topP": 0.8,
-      "topK": 10
+      "maxOutputTokens": 8192,
+      "topP": 0.95,
+      "topK": 64
     }
   };
 
   try {
     const response = await axios.post(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${options.apikey}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/${options.model}:generateContent?key=${options.apikey}`,
       requestBody,
       { headers: { 'Content-Type': 'application/json' } }
     );
