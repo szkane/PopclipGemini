@@ -37,5 +37,6 @@ Google Gemini api key [https://aistudio.google.com/app/apikey ](https://aistudio
 
 | Date   | Description                                                         |
 | ------ | ------------------------------------------------------------------- |
+| 16 MAY | add model options, support Gemini gemini-1.5-flash-latest           |
 | 26 MAR | update icon and add language options for Gemini translate extension |
 | 22 MAR | try to make a popclip extension with Gemini AI by javascript        |
