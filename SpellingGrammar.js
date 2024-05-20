@@ -13,14 +13,22 @@
 //    values:['gemini-1.5-flash-latest','gemini-1.5-pro-latest','gemini-1.0-pro']
 //  }, {
 //   identifier: prompt, label: 'Spelling and Grammar Prompt', type: string,
-//   defaultValue: "I will give you text content, you will correct the spelling, syntax and grammar of this text. Correct any spelling, syntax, or grammar mistakes in the text I give you without making any improvements or changes to the original meaning or style. In other words, only correct spelling, syntax, or grammar mistakes, do not make improvements. If the original text has no mistake,just output the original text and nothing else. Keep the meaning the same. Make sure the re-written content's number of words is the same as the original text's number of characters. Do not alter the original structure and formatting outlined in any way. Only give me the output and nothing else.Now, using the concepts above, re-write the following text. Respond in the same language variety or dialect of the following text:{input}",
+//   defaultValue: "",
 //   description: 'Enter the prompt template using {input} as a placeholder for the text'
 // }]
 
 const axios = require("axios");
 
 async function generateContent(input, options) {
-  const prompt=options.prompt.replace('{input}', input.text);
+  
+  let prompt;
+  if(options.prompt.length === 0){
+     prompt="I will give you text content, you will correct the spelling, syntax and grammar of this text. Correct any spelling, syntax, or grammar mistakes in the text I give you without making any improvements or changes to the original meaning or style. In other words, only correct spelling, syntax, or grammar mistakes, do not make improvements. If the original text has no mistake,just output the original text and nothing else. Keep the meaning the same. Make sure the re-written content's number of words is the same as the original text's number of characters. Do not alter the original structure and formatting outlined in any way. Only give me the output and nothing else.Now, using the concepts above, re-write the following text. Respond in the same language variety or dialect of the following text:{input}";
+  } 
+  else{
+     prompt=options.prompt;
+  }
+  prompt=options.prompt.replace('{input}', input.text);
   const requestBody = {
     "contents": [{
       "parts": [
