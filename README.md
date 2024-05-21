@@ -40,3 +40,11 @@ Google Gemini api key [https://aistudio.google.com/app/apikey ](https://aistudio
 | 16 MAY | add model options, support Gemini gemini-1.5-flash-latest           |
 | 26 MAR | update icon and add language options for Gemini translate extension |
 | 22 MAR | try to make a popclip extension with Gemini AI by javascript        |
+
+## Important - STOP UPDATE
+
+I found another free app and popclip extension is better than mine, so stop update.
+
+If you're interested, you can click the link below to enter.
+
+[openai-translator](https://github.com/openai-translator/openai-translator)
