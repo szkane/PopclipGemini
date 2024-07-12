@@ -10,7 +10,7 @@ Inspired by Notion AI, Prompt Reference from [developnsolve](https://developnsol
 
 ![DEMO](res/shot_demo.gif 'demo')
 
-# Features
+# New Features
 
 - We have introduced support for the large model API offered by MoonShot AI in China.
 - We have developed a Popclip extension that facilitates the generation of prompt suggestions for Stable Diffusion, enhancing the efficiency of newcomers to the platform, leveraging the capabilities of MoonShot AI.
