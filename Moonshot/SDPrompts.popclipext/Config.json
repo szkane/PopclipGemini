@@ -1,0 +1,36 @@
+{
+  "popclip version": 4586,
+  "identifier": "com.szkane.extension.sdmoonshot",
+  "name": "SD_Moonshot",
+  "icon": "sd.svg",
+  "module": "sd.ts",
+  "after": "paste-result",
+  "entitlements": ["network"],
+  "note": "demo",
+  "description": "Generate Stable Diffusion  prompt from Moonshot AI",
+  "options": [
+    {
+      "identifier": "apiToken",
+      "label": "API Token",
+      "type": "string",
+      "description": "Obtain an API Token from Moonshot Settings → API Tokens."
+    },
+    {
+      "identifier": "model",
+      "label": "Model",
+      "type": "multiple",
+      "values": ["moonshot-v1-8k", "moonshot-v1-32k", "moonshot-v1-128k"]
+    },
+    {
+      "identifier": "promptType",
+      "label": "Prompt Type",
+      "type": "multiple",
+      "values": ["fullprompt", "negative", "positive", "custom"]
+    },
+    {
+      "identifier": "custom_prompt",
+      "type": "string",
+      "label": "custom prompt"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "popclip version": 4586,
+  "identifier": "com.szkane.extension.translation",
+  "name": "Translation (Andrew Ng)",
+  "icon": "tr.svg",
+  "module": "tr.ts",
+  "after": "paste-result",
+  "entitlements": ["network"],
+  "note": "demo",
+  "description": "Translation (Andrew Ng) version using Moonshot",
+  "options": [
+    {
+      "identifier": "apiToken",
+      "label": "API Token",
+      "type": "string",
+      "description": "Obtain an API Token from Moonshot Settings → API Tokens."
+    },
+    {
+      "identifier": "model",
+      "label": "Model",
+      "type": "multiple",
+      "values": ["moonshot-v1-8k", "moonshot-v1-32k", "moonshot-v1-128k"]
+    },
+    {
+      "identifier": "tolang",
+      "label": "Target Language",
+      "type": "multiple",
+      "values": [
+        "English",
+        "Chinese",
+        "Russian",
+        "French",
+        "Português",
+        "Spanish",
+        "Italian",
+        "German",
+        "Korean",
+        "Japanese",
+        "Arabic",
+        "Dutch",
+        "Turkish",
+        "Vietnamese",
+        "Indonesian",
+        "Hindi",
+        "Thai"
+      ],
+      "description": "The language to be translated"
+    }
+  ]
+}
