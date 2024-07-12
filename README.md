@@ -10,6 +10,8 @@ Inspired by Notion AI, Prompt Reference from [developnsolve](https://developnsol
 
 ![DEMO](res/shot_demo.gif 'demo')
 
+![DEMO 2](res/shot_demo2.gif 'demo2')
+
 # New Features
 
 - We have introduced support for the large model API offered by MoonShot AI in China.
