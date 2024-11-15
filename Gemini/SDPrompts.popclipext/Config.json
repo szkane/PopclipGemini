@@ -1,0 +1,36 @@
+{
+  "popclip version": 4586,
+  "identifier": "com.szkane.extension.sd.gemini",
+  "name": "SD_Gemini",
+  "icon": "sd.svg",
+  "module": "sd.ts",
+  "after": "paste-result",
+  "entitlements": ["network"],
+  "note": "demo",
+  "description": "Generate Stable Diffusion prompt from Gemini AI",
+  "options": [
+    {
+      "identifier": "apiToken",
+      "label": "API Token",
+      "type": "string",
+      "description": "Obtain an API Token from Gemini Settings → API Tokens."
+    },
+    {
+      "identifier": "model",
+      "label": "Model",
+      "type": "multiple",
+      "values": ["gemini-1.5-flash", "gemini-1.5-pro"]
+    },
+    {
+      "identifier": "promptType",
+      "label": "Prompt Type",
+      "type": "multiple",
+      "values": ["fullprompt", "negative", "positive", "custom"]
+    },
+    {
+      "identifier": "custom_prompt",
+      "type": "string",
+      "label": "custom prompt"
+    }
+  ]
+}
